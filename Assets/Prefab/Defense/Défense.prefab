@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 4848059402194535890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.31765354, y: 1.05, z: 0.7267684}
+  m_LocalScale: {x: 0.31765354, y: 0.94877994, z: 0.7267684}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,8 +109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DefenseSpeed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DefenseSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"DestructParticles","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 358741037242353079, guid: fa91338804730d34b8cb5b018ebfb04f, type: 3}
 --- !u!54 &5487849275867755380
 Rigidbody:
   m_ObjectHideFlags: 0

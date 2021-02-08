@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: NextBoss2Macro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":141.0,"y":-51.83124},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-168.0,"y":-154.0},"guid":"b217fa76-8a4e-4634-9bcb-a5c47882a527","$version":"A","$type":"Bolt.OnButtonClick","$id":"9"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"Boss
+      final","$type":"System.String"}},"position":{"x":76.0,"y":-157.0},"guid":"d4f7c3bc-6c87-40bb-9c02-740b6d036efd","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"chainable":false,"member":{"name":"timeScale","parameterTypes":null,"targetType":"UnityEngine.Time","targetTypeName":"UnityEngine.Time","$version":"A"},"defaultValues":{"input":{"$content":1.0,"$type":"System.Single"}},"position":{"x":402.0,"y":-155.0},"guid":"fd6e9400-45f2-4b8c-94ab-28ffed0ade0a","$version":"A","$type":"Bolt.SetMember","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"acbd5a74-59de-4c2f-8a1c-bfc7295b0b28","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"5ba245fd-3593-48d4-afd5-578b3e8b1b32","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
