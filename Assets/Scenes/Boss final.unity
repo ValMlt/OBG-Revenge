@@ -1224,7 +1224,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: 2
     m_CustomResolution: -1
     m_Strength: 1
@@ -5323,7 +5323,7 @@ PrefabInstance:
     - target: {fileID: 4403532089965713721, guid: f9ef9191d1103184485ea274fad57d7b,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"CoronaRef","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Canon1Ref","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Canon2Ref","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Canon3Ref","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CoronaHealth","value":{"$content":18.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"CoronaRef","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Canon1Ref","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Canon2Ref","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Canon3Ref","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CoronaHealth","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4403532089965713727, guid: f9ef9191d1103184485ea274fad57d7b,
         type: 3}
